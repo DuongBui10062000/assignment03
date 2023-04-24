@@ -1,0 +1,121 @@
+@media (max-width: 1170px) {
+  /* navbar and banner */
+  #nav-bar .my-photo::after {
+    display: none;
+  }
+
+  #nav-bar .my-photo {
+    display: none;
+  }
+
+  #nav-bar .nav-item:nth-child(2) {
+    border-right: 1px solid #ced4da;
+  }
+
+  #target .side-empty {
+    padding: 4.6rem 0.4rem 3.4rem 9.4rem;
+    max-width: 75%;
+    margin-left: 7rem;
+  }
+
+  /* job-info */
+  #job-info .container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 27.8rem 9.8rem 21.4rem auto;
+  }
+
+  #job-info .container .card {
+    overflow: hidden;
+  }
+
+  #job-info .container .card:nth-child(1) {
+    grid-row: 1 / 3;
+  }
+
+  #job-info .container .card:nth-child(3) {
+    grid-row: 2 / 4;
+  }
+
+  /* certificate */
+  #certificate .row {
+    gap: 0;
+  }
+
+  /* project */
+  #project .card-description div {
+    margin: 0.86rem 0.7rem;
+  }
+}
+
+@media (max-width: 970px) {
+  /* introduce */
+  #target .side-empty {
+    padding: 4.6rem 0.4rem 3.4rem 0.4rem;
+  }
+
+  /* job-info */
+  #job-info .container {
+    grid-template-rows: 32.8rem 15rem 10.7rem 10.7rem auto;
+  }
+
+  #job-info .container .card:nth-child(4) {
+    grid-column: 1 / 2;
+    grid-row: 3 / 5;
+  }
+
+  #job-info .container .card:nth-child(5) {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+  }
+
+  #job-info .container .card:nth-child(6) {
+    grid-column: 2 / 3;
+    grid-row: 4 / 6;
+  }
+
+  /* certificate */
+  #certificate .certificate-item {
+    padding: 0 1.7rem;
+
+    flex-direction: column;
+  }
+
+  #certificate .container .column {
+    max-width: fit-content;
+    margin: 0 auto;
+  }
+
+  /* project */
+  #project .card-description {
+    border-top: 1px solid #ced4da;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #868e96;
+  }
+
+  #project .card-description .res970 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  #project table tr td:first-child {
+    white-space: break-spaces;
+  }
+
+  #footer .container {
+    height: 5vw;
+  }
+}
+
+@media (max-width: 700px) {
+  #project .card-description div {
+    margin: 0;
+  }
+
+  #footer .container {
+    height: 5vw;
+  }
+}

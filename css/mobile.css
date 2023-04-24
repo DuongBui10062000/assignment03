@@ -1,0 +1,110 @@
+@media (max-width: 530px) {
+  html {
+    font-size: 10px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  /* navbar */
+  #nav-bar .container {
+    height: fit-content;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  #nav-bar .container .nav-item {
+    width: 100%;
+    padding: 0.5rem 0;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+  }
+
+  /* about */
+  #about .container {
+    grid-template-columns: 1fr;
+  }
+
+  #target .side-empty {
+    padding: 2.3rem 0 0 0;
+    max-width: 100%;
+    margin: 0 6.1rem;
+  }
+
+  #target .side-empty h2 {
+    text-align: center;
+  }
+
+  #personal-info {
+    padding: 2.3rem 0 0 0;
+    margin: 0 6.1rem;
+  }
+
+  #personal-info h2,
+  #personal-info div {
+    text-align: center;
+  }
+
+  /* job-info */
+  #job-info .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #job-info .container .card:nth-child(4) {
+    padding-bottom: 4.8rem;
+  }
+
+  /* certificate */
+  #certificate .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #certificate .container .row {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+
+  #certificate .row .certificate-item {
+    max-width: 100%;
+    flex-direction: row;
+    border: none;
+    border-bottom: 1px solid #d6c08d;
+    margin: 0;
+    padding: 1.7rem;
+  }
+
+  /* project */
+  #project .section-content {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  #project .section-content .card {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  #project .card-description .res970 {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+  }
+
+  #project table tr td:first-child {
+    white-space: nowrap;
+  }
+
+  #project .card-description div {
+    margin: 0.86rem 0.86rem;
+  }
+
+  #footer .container {
+    height: 5vw;
+  }
+}
